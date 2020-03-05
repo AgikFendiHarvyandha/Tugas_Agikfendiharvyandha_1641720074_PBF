@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nim": 1641720074,
+      "nama": "Agik Fendi Harvyandha",
+      "alamat": "Malang",
+      "hp": "085854418375",
+      "angkatan": 2016,
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "nim": 1741720067,
+      "nama": "Fawwaz Ramzy Darmawan",
+      "alamat": "Sidoarjo",
+      "hp": "082254148320",
+      "angkatan": 2017,
+      "status": "lulus"
+    },
+    {
+      "id": 1583302148522,
+      "nim": "1235",
+      "nama": "ads",
+      "alamat": "unknown",
+      "hp": "12345678",
+      "angkatan": "123",
+      "status": "qwe"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
