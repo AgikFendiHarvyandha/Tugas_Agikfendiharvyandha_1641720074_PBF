@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(194, 194, 194, 0.8)
+  );
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+
+  font-size: 3.2em;
+  color: #ffffff;
+  font-family: "Imprint MT Shadow", cursive;
+  text-align: left;
+  padding: 20px 0px 20px 0px;
+  background-color: rgb(156, 156, 156);
+  display: block;
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  background-color: #ffffff;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  width: unset;
+  background-color: rgb(156, 156, 156);
+}
